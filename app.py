@@ -32,7 +32,7 @@ tech_base_values = {
     'high-end addressable system': 35000,
     'mid-end addressable': 15000,
     'aspirating smoke detection': 14000,
-    'evacuation': 13000,
+    'evacuation': 25000,
     'wireless': 9000,
     'conventional': 7000,
     'linear heat detection': 6000,
