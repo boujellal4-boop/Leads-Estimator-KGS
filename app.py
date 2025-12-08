@@ -8,7 +8,7 @@ st.title('KGS Lead Estimator')
 # ====== Global Controls ======
 st.markdown('### Global Settings')
 conv_percent = st.number_input(
-    'Conversion Rate (%)', min_value=0.0, max_value=100.0, value=30.0, step=1.0,
+    'Conversion Rate (%)', min_value=0.0, max_value=100.0, value=0.50, step=0.25,
     help='Enter the expected percentage of leads that convert to deals.'
 )
 conversion_rate = conv_percent / 100.0
