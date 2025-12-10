@@ -24,7 +24,7 @@ industries = [
 technologies = [
     'high-end addressable system',
     'mid-end addressable',
-    'conventional','wireless','aspirating smoke detection','linear heat detection','flame detection','evacuation'
+    'conventional','wireless','aspirating smoke detection','linear heat detection','flame detection','evacuation' ,'general'
 ]
 
 # ====== Estimation parameters ======
@@ -36,7 +36,8 @@ tech_base_values = {
     'wireless': 9000,
     'conventional': 7000,
     'linear heat detection': 6000,
-    'flame detection': 5000
+    'flame detection': 5000,
+    'general': 14,572
 }
 
 lead_type_multiplier = {'end-user':1.2,'distributor':6,'installer':3.3,'consultant':1.95}
