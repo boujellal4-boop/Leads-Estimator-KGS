@@ -24,7 +24,7 @@ industries = [
 technologies = [
     'high-end addressable system',
     'mid-end addressable',
-    'conventional','wireless','aspirating smoke detection','linear heat detection','flame detection','evacuation','general' , 'general'
+    'conventional','wireless','aspirating smoke detection','linear heat detection','flame detection','evacuation','general'
 ]
 
 # ====== Estimation parameters ======
