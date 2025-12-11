@@ -14,7 +14,7 @@ conv_percent = st.number_input(
 conversion_rate = conv_percent / 100.0
 
 # ====== Hardcoded options ======
-lead_types = ['end-user', 'distributor', 'installer', 'consultant']
+lead_types = ['end-user', 'distributor', 'installer', 'consultant', 'general']
 countries = ['BE','NL','UK','IE','FR','IT','ES','PT','DE','DK','SE','FI','NO','PL','TR','ZA','ME','General']
 industries = [
     'hospitality','datacenters','factories','gas & oil','healthcare','education','retail','transportation',
@@ -40,7 +40,7 @@ tech_base_values = {
     'general': 14572
 }
 
-lead_type_multiplier = {'end-user':1.2,'distributor':6,'installer':3.3,'consultant':1.95}
+lead_type_multiplier = {'end-user':1.2,'distributor':6,'installer':3.3,'consultant':1.95, 'general':3.11}
 country_multiplier = {'BE':1.0,'NL':1.0,'UK':1.1,'IE':1.0,'FR':1.0,'IT':1.0,'ES':1.0,'PT':1.0,'DE':1.1,'DK':1.0,'SE':1.0,'FI':1.0,'NO':1.0,'PL':0.9,'TR':0.8,'ZA':0.9,'ME':1.2, 'General':1}
 industry_multiplier = {
     'hospitality':1.1,'datacenters':1.4,'factories':1.3,'gas & oil':1.5,'healthcare':1.3,'education':1.2,'retail':1.1,
