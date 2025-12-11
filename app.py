@@ -15,16 +15,16 @@ conversion_rate = conv_percent / 100.0
 
 # ====== Hardcoded options ======
 lead_types = ['end-user', 'distributor', 'installer', 'consultant']
-countries = ['BE','NL','UK','IE','FR','IT','ES','PT','DE','DK','SE','FI','NO','PL','TR','ZA','ME']
+countries = ['BE','NL','UK','IE','FR','IT','ES','PT','DE','DK','SE','FI','NO','PL','TR','ZA','ME','General']
 industries = [
     'hospitality','datacenters','factories','gas & oil','healthcare','education','retail','transportation',
     'manufacturing','energy','government','banking','insurance','telecommunications','construction','real estate',
-    'food & beverage','pharmaceutical','mining','utilities','logistics','media','sports','entertainment','other'
+    'food & beverage','pharmaceutical','mining','utilities','logistics','media','sports','entertainment','other', 'general'
 ]
 technologies = [
     'high-end addressable system',
     'mid-end addressable',
-    'conventional','wireless','aspirating smoke detection','linear heat detection','flame detection','evacuation','general'
+    'conventional','wireless','aspirating smoke detection','linear heat detection','flame detection','evacuation','general' , 'general'
 ]
 
 # ====== Estimation parameters ======
@@ -41,12 +41,12 @@ tech_base_values = {
 }
 
 lead_type_multiplier = {'end-user':1.2,'distributor':6,'installer':3.3,'consultant':1.95}
-country_multiplier = {'BE':1.0,'NL':1.0,'UK':1.1,'IE':1.0,'FR':1.0,'IT':1.0,'ES':1.0,'PT':1.0,'DE':1.1,'DK':1.0,'SE':1.0,'FI':1.0,'NO':1.0,'PL':0.9,'TR':0.8,'ZA':0.9,'ME':1.2}
+country_multiplier = {'BE':1.0,'NL':1.0,'UK':1.1,'IE':1.0,'FR':1.0,'IT':1.0,'ES':1.0,'PT':1.0,'DE':1.1,'DK':1.0,'SE':1.0,'FI':1.0,'NO':1.0,'PL':0.9,'TR':0.8,'ZA':0.9,'ME':1.2, 'General':1}
 industry_multiplier = {
     'hospitality':1.1,'datacenters':1.4,'factories':1.3,'gas & oil':1.5,'healthcare':1.3,'education':1.2,'retail':1.1,
     'transportation':1.2,'manufacturing':1.3,'energy':1.4,'government':1.2,'banking':1.3,'insurance':1.2,
     'telecommunications':1.3,'construction':1.2,'real estate':1.1,'food & beverage':1.2,'pharmaceutical':1.4,
-    'mining':1.5,'utilities':1.3,'logistics':1.2,'media':1.1,'sports':1.1,'entertainment':1.1,'other':1.0
+    'mining':1.5,'utilities':1.3,'logistics':1.2,'media':1.1,'sports':1.1,'entertainment':1.1,'other':1.0 , 'general':1.23
 }
 
 # ====== Session state ======
